@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-track{
+    background: #0000001a;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #ffffff77;
+
+}
+
+
+html{
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+    height: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+
+header{
+    display: flex;
+    height: 35vh;
+    width: 100vw;
+}
+
+header div.banner{
+    background-image: url("./img/banner.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header div.logo{
+    background-image: url("./img/logo-medusa.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 4px solid #000;
+    width: 130px;
+    height: 130px;
+    margin-top: 23vh;
+    border-radius: 50%;
+}
+
+main{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+main div.nome{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+main div.link-site{
+    color: #6d6d6d;
+    font-weight: 500;
+}
+
+main div.frase{
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+    color: #ffffffa9;
+}
+
+section.redes-sociais{
+    font-size: 2.4em;
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    margin-bottom: 15vh;
+}
+
+section.redes-sociais div.rede{
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+section.redes-sociais div.rede:hover{
+    color: #6d6d6d;
+}
+
+
+
+
+
+section.conteudos-sections{
+    width: 85vw;
+    margin: auto;
+}
+
+section.conteudos-sections div.conteudos{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    height: 9vh;
+    cursor: pointer;
+    margin-bottom: 2vh;
+    background-color: #0c0c0ca2;
+    box-shadow: 1px 1px #5b00b1a8;
+    transition: .2s ease-in;
+}
+
+section.conteudos-sections div.conteudos:hover{
+    background-color: #5b00b1;
+}
+
+section.conteudos-sections a{
+    text-align: center;
+    width: 90vw;
+}
+
+section.conteudos-sections a:hover{
+    color: #fff;
+}
+
+
+footer{
+    margin-top: 12vh;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffffff83;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: .1s ease-in-out;
+}
+
+a:active{
+    color: #6d6d6d;
+}
+
+a:hover{
+    color: #6d6d6d;
+}
