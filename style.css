@@ -25,7 +25,7 @@ html{
 }
 
 body{
-    background-color: #000;
+    background-color: #070707;
     color: #fff;
     height: 100%;
     max-width: 100vw;
@@ -40,7 +40,7 @@ header{
 }
 
 header div.banner{
-    background-image: url("./img/banner.webp");
+    background-image: url("img/banner.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -50,7 +50,7 @@ header div.banner{
 }
 
 header div.logo{
-    background-image: url("./img/logo-medusa.jpg");
+    background-image: url("./img/perfi-png.jpg");
     background-size: cover;
     background-position: center;
     border: 4px solid #000;
@@ -113,14 +113,15 @@ section.conteudos-sections div.conteudos{
     border-radius: 5px;
     height: 9vh;
     cursor: pointer;
-    margin-bottom: 2vh;
-    background-color: #0c0c0ca2;
-    box-shadow: 1px 1px #5b00b1a8;
+    margin-bottom: 3vh;
+    background-color: #0c0c0c;
+    box-shadow: 1px 1px #ffffff73;
     transition: .2s ease-in;
 }
 
 section.conteudos-sections div.conteudos:hover{
-    background-color: #5b00b1;
+    background-color: #ffffff7e;
+    transform: perspective(30%);
 }
 
 section.conteudos-sections a{
@@ -129,7 +130,7 @@ section.conteudos-sections a{
 }
 
 section.conteudos-sections a:hover{
-    color: #fff;
+    color: #000000;
 }
 
 
