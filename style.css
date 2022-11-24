@@ -114,14 +114,13 @@ section.conteudos-sections div.conteudos{
     height: 9vh;
     cursor: pointer;
     margin-bottom: 3vh;
-    background-color: #0c0c0c;
-    box-shadow: 1px 1px #ffffff73;
+    background-color: #0c0c0cea;
+    box-shadow: 1px 1px #64646486;
     transition: .2s ease-in;
 }
 
 section.conteudos-sections div.conteudos:hover{
-    background-color: #ffffff7e;
-    transform: perspective(30%);
+    background-color: #5555557e;
 }
 
 section.conteudos-sections a{
@@ -130,7 +129,7 @@ section.conteudos-sections a{
 }
 
 section.conteudos-sections a:hover{
-    color: #000000;
+    color: #c5c5c5;
 }
 
 
