@@ -15,7 +15,7 @@
 }
 
 ::-webkit-scrollbar-thumb{
-    background: #ffffff77;
+    background: #ffffff56;
 
 }
 
@@ -40,7 +40,7 @@ header{
 }
 
 header div.banner{
-    background-image: url("img/banner.webp");
+    background-image: url("./img/codes-blue.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
