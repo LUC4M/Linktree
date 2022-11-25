@@ -1,0 +1,34 @@
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+main{
+    margin-top: 11vh;
+    text-align: center
+}
+
+main nav a{
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #0055c4;
+    border-radius: 5px;
+    padding: 12px;
+    transition: .3s ease;
+    font-size: 1.1em;
+}
+
+main nav a:hover{
+    background-color: #0055c4;
+    color: #fff;
+}
+
+main section{
+    margin-top: 4%;
+}
+
+main section a{
+    border-bottom: 3px solid #0055c4;
+    font-size: 2em;
+    cursor: default;
+}
