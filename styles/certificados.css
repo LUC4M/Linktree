@@ -25,10 +25,67 @@ main nav a:hover{
 
 main section{
     margin-top: 4%;
+    margin-bottom: 10%;
 }
 
 main section a{
     border-bottom: 3px solid #0055c4;
     font-size: 2em;
     cursor: default;
+}
+
+section.Certificados{
+    margin: auto;
+    width: 80%;
+    height: 100vh;
+    margin-bottom: 5%;
+}
+
+
+div.certificado-png{
+    margin: auto;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 1px #af0052d7;
+    background-image: url("../img/certificados/certificado-html5.jpeg");
+    background-size: cover;
+    width: 700px;
+    height: 500px;
+}
+
+div.certificado-png2{
+    margin: auto;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 1px #af0052d7;
+    background-image: url("../img/certificados/certificado-css3.jpg");
+    background-size: cover;
+    width: 700px;
+    height: 500px;
+}
+
+div.certificado-png3{
+    margin: auto;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 1px #af0052d7;
+    background-image: url("../img/certificados/certificado-javascript.jpg");
+    background-size: cover;
+    width: 700px;
+    height: 500px;
+}
+
+
+@media (max-width: 773px) {
+    div.certificado-png, div.certificado-png2, div.certificado-png3{
+        display: none;
+    }
+
+    main nav{
+        margin-top: 35%;
+    }
+
+    main section{
+        margin-top: 11%;
+    }
 }
