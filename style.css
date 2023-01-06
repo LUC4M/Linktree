@@ -50,10 +50,10 @@ header div.banner{
 }
 
 header div.logo{
-    background-image: url("./img/perfi-png.jpg");
+    background-image: url("./img/lucas.png");
     background-size: cover;
     background-position: center;
-    border: 4px solid #000;
+    border: 2px solid transparent;
     width: 130px;
     height: 130px;
     margin-top: 23vh;
