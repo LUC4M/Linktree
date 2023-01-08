@@ -27,9 +27,37 @@ html{
 body{
     background-color: #070707;
     color: #fff;
-    height: 100vh;
+    height: 100%;
     max-width: 100vw;
     overflow-x: hidden;
+}
+
+
+header{
+    display: flex;
+    height: 35vh;
+    width: 100vw;
+}
+
+header div.banner{
+    background-image: url("./img/codes-blue.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header div.logo{
+    background-image: url("./img/lucas.png");
+    background-size: cover;
+    background-position: center;
+    border: 2px solid transparent;
+    width: 130px;
+    height: 130px;
+    margin-top: 23vh;
+    border-radius: 50%;
 }
 
 
@@ -61,6 +89,43 @@ header div.logo{
     border-radius: 50%;
 }
 
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+main{
+    margin-top: 16vh;
+    text-align: center
+}
+
+main nav a{
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #0055c4;
+    border-radius: 5px;
+    padding: 12px;
+    transition: .3s ease;
+    font-size: 1.1em;
+}
+
+main nav a:hover{
+    background-color: #0055c4;
+    color: #fff;
+}
+
+main section{
+    margin-top: 4%;
+    margin-bottom: 10%;
+}
+
+main section a{
+    border-bottom: 3px solid #0055c4;
+    font-size: 2em;
+    cursor: default;
+}
+
 footer{
     margin-top: 75%;
     padding-bottom: 10px;
@@ -71,4 +136,20 @@ footer{
 footer a{
     text-decoration: none;
     color: #ffffff83;
+}
+
+a{
+    color: #ffffffd0;
+    text-decoration: none;
+}
+
+
+@media (max-width: 773px){
+    main nav{
+        margin-top: 18%;
+    }
+    
+    main section{
+        margin-top: 15%;
+    }
 }

@@ -2,42 +2,6 @@ body{
     height: 100vh;
 }
 
-a{
-    color: #fff;
-    text-decoration: none;
-}
-
-main{
-    margin-top: 16vh;
-    text-align: center
-}
-
-main nav a{
-    text-decoration: none;
-    color: #fff;
-    border: 2px solid #0055c4;
-    border-radius: 5px;
-    padding: 12px;
-    transition: .3s ease;
-    font-size: 1.1em;
-}
-
-main nav a:hover{
-    background-color: #0055c4;
-    color: #fff;
-}
-
-main section{
-    margin-top: 4%;
-    margin-bottom: 10%;
-}
-
-main section a{
-    border-bottom: 3px solid #0055c4;
-    font-size: 2em;
-    cursor: default;
-}
-
 section.Certificados{
     margin: auto;
     width: 80%;
@@ -79,6 +43,10 @@ div.certificado-png3{
     height: 500px;
 }
 
+span{
+    color: #0055c4;
+}
+
 section.conteudos-sections{
     display: none;
 }
@@ -88,18 +56,7 @@ section.conteudos-sections{
     div.certificado-png, div.certificado-png2, div.certificado-png3{
         display: none;
     }
-
-    body{
-        height: 100vh;
-    }
-
-    main nav{
-        margin-top: 18%;
-    }
-
-    main section{
-        margin-top: 22%;
-    }
+    
     section.conteudos-sections{
         display: block;
         position: relative;

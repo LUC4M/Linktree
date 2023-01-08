@@ -60,6 +60,7 @@ header div.logo{
     border-radius: 50%;
 }
 
+
 main{
     margin-top: 10vh;
     text-align: center;
@@ -81,6 +82,10 @@ main div.frase{
     color: #ffffffa9;
 }
 
+main div.frase p.sub-frase{
+    color: #6d6d6d;
+}
+
 section.redes-sociais{
     font-size: 2.4em;
     display: flex;
@@ -97,8 +102,6 @@ section.redes-sociais div.rede{
 section.redes-sociais div.rede:hover{
     color: #6d6d6d;
 }
-
-
 
 
 
