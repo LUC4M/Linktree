@@ -1,40 +1,42 @@
-section.Certificados{
+section.projetos-sections{
     margin: auto;
     width: 80%;
     height: 100vh;
     margin-bottom: 5%;
 }
 
-
-div.certificado-png{
+div.projeto-png{
     margin: auto;
     margin-bottom: 5%;
     border-radius: 20px;
     box-shadow: 2px 2px 1px #af0052d7;
-    background-image: url("../img/certificados/certificado-html5.jpeg");
+    background-image: url("../img/projetos/breve.jpg");
     background-size: cover;
+    background-position: center;
     width: 700px;
     height: 500px;
 }
 
-div.certificado-png2{
+div.projeto-png2{
     margin: auto;
     margin-bottom: 5%;
     border-radius: 20px;
     box-shadow: 2px 2px 1px #af0052d7;
-    background-image: url("../img/certificados/certificado-css3.jpg");
+    background-image: url("../img/projetos/breve.jpg");
     background-size: cover;
+    background-position: center;
     width: 700px;
     height: 500px;
 }
 
-div.certificado-png3{
+div.projeto-png3{
     margin: auto;
     margin-bottom: 5%;
     border-radius: 20px;
     box-shadow: 2px 2px 1px #af0052d7;
-    background-image: url("../img/certificados/certificado-javascript.jpg");
+    background-image: url("../img/projetos/breve.jpg");
     background-size: cover;
+    background-position: center;
     width: 700px;
     height: 500px;
 }
@@ -44,9 +46,14 @@ section.conteudos-sections{
 }
 
 
+
 @media (max-width: 773px) {
-    div.certificado-png, div.certificado-png2, div.certificado-png3{
+    div.projeto-png, div.projeto-png2, div.projeto-png3{
         display: none;
+    }
+
+    section.conteudos-sections{
+        display: block;
     }
 
     body{
@@ -56,12 +63,13 @@ section.conteudos-sections{
     main nav{
         margin-top: 18%;
     }
-
-    section.conteudos-sections{
+    section.projetos-sections{
         display: block;
         position: relative;
         width: 85vw;
         margin: auto;
+        height: 50vh;
+        
     }
     
     section.conteudos-sections div.conteudos{
@@ -69,6 +77,8 @@ section.conteudos-sections{
         justify-content: center;
         border-radius: 5px;
         height: 9vh;
+        width: 85vw;
+        margin: auto;
         cursor: pointer;
         margin-bottom: 3vh;
         background-color: #0c0c0cea;
@@ -85,13 +95,15 @@ section.conteudos-sections{
         text-align: center;
         width: 90vw;
         color: white;
+        margin-bottom: 5%;
+
     }
     
     section.conteudos-sections a:hover{
         color: #c5c5c5;
     }
 
-    section.Certificados{
+    section.projetos-sections{
         height: 0%;
     }
 
