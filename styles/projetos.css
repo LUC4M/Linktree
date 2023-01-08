@@ -1,4 +1,4 @@
-section.Certificados{
+section.Projetos{
     margin: auto;
     width: 80%;
     height: 100vh;
@@ -6,35 +6,38 @@ section.Certificados{
 }
 
 
-div.certificado-png{
+div.projeto-png{
     margin: auto;
     margin-bottom: 5%;
     border-radius: 20px;
-    box-shadow: 2px 2px 1px #af0052d7;
-    background-image: url("../img/certificados/certificado-html5.jpeg");
+    box-shadow: 2px 2px 1px #0055c4d7;
+    background-image: url("../img/projetos/breve.gif");
     background-size: cover;
+    background-position: center;
     width: 700px;
     height: 500px;
 }
 
-div.certificado-png2{
+div.projeto-png2{
     margin: auto;
     margin-bottom: 5%;
     border-radius: 20px;
-    box-shadow: 2px 2px 1px #af0052d7;
-    background-image: url("../img/certificados/certificado-css3.jpg");
+    box-shadow: 2px 2px 1px #0055c4d7;
+    background-image: url("../img/projetos/breve.gif");
     background-size: cover;
+    background-position: center;
     width: 700px;
     height: 500px;
 }
 
-div.certificado-png3{
+div.projeto-png3{
     margin: auto;
     margin-bottom: 5%;
     border-radius: 20px;
-    box-shadow: 2px 2px 1px #af0052d7;
-    background-image: url("../img/certificados/certificado-javascript.jpg");
+    box-shadow: 2px 2px 1px #0055c4d7;
+    background-image: url("../img/projetos/breve.gif");
     background-size: cover;
+    background-position: center;
     width: 700px;
     height: 500px;
 }
@@ -47,13 +50,12 @@ section.conteudos-sections{
     display: none;
 }
 
-
 @media (max-width: 773px) {
-    div.certificado-png, div.certificado-png2, div.certificado-png3{
+    div.projeto-png, div.projeto-png2, div.projeto-png3{
         display: none;
     }
-
-    section.Certificados{
+    
+    section.Projetos{
         height: 0%;
     }
     
@@ -97,3 +99,4 @@ section.conteudos-sections{
     }
 
 }
+
