@@ -1,12 +1,17 @@
+body{
+    height: auto;
+}
+
+
 .perfil{
     margin: auto;
-    height: 100vh;
     width: 100%;
 }
 
 .conteudos{
+    display: flex;
     width: 85%;
-    height: 80vh;
+    height: auto;
     margin: auto;
     text-align: center;
     background-color: #0c0c0cea;
@@ -34,8 +39,17 @@ p.frase{
     line-height: 135%;
 }
 
+div.mais-info{
+    width: 100vw;
+    margin: auto;
+    text-align: center;
+}
+
 nav.info{
-    padding-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: auto;
+    width: 100%;
 }
 
 nav.info a{
@@ -47,6 +61,7 @@ nav.info a{
     padding: 12px;
     transition: .3s ease;
     font-size: 1.1em;
+    margin-bottom: 15%;
 }
 
 nav.info a:hover{
@@ -59,10 +74,16 @@ nav.info a:hover{
     .conteudos{
         width: 90%;
         margin: auto;
+        height: auto;
+        padding: auto;
     }
     p.frase{
         font-size: 1.2em;
         line-height: 165%;
 
+    }
+    nav.info{
+        padding-top: 8%;
+        padding-bottom: 8%;
     }
 }
