@@ -30,13 +30,14 @@ span{
 }
 
 h1{
-    font-size: 2.0em;
+    font-size: 2.2em;
 }
 
 p.frase{
-    font-size: 1.5em;
-    font-weight: 600;
-    line-height: 135%;
+    font-size: 1.4em;
+    font-weight: 500;
+    color: #9c9c9c;
+    font-style: italic;
 }
 
 div.mais-info{
