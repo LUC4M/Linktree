@@ -40,34 +40,6 @@ header{
 }
 
 header div.banner{
-    background-image: url("./img/codes-blue.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-header div.logo{
-    background-image: url("./img/lucas.png");
-    background-size: cover;
-    background-position: center;
-    border: 2px solid transparent;
-    width: 130px;
-    height: 130px;
-    margin-top: 23vh;
-    border-radius: 50%;
-}
-
-
-header{
-    display: flex;
-    height: 35vh;
-    width: 100vw;
-}
-
-header div.banner{
     background-image: url("../img/codes-blue.gif");
     background-repeat: no-repeat;
     background-size: cover;
