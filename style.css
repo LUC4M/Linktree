@@ -54,15 +54,15 @@ header div.logo{
     background-size: cover;
     background-position: center;
     border: 2px solid transparent;
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     margin-top: 23vh;
     border-radius: 50%;
 }
 
 
 main{
-    margin-top: 10vh;
+    margin-top: 14vh;
     text-align: center;
 }
 
@@ -160,4 +160,14 @@ a:active{
 
 a:hover{
     color: #6d6d6d;
+}
+
+@media (max-width: 773px){
+    header div.logo{
+        display: none;
+    }
+    main{
+        margin-top: 2vh;
+        color: #005cd4;
+    }
 }
